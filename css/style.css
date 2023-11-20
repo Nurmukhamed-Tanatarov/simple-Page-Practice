@@ -4,7 +4,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../assets//fonts/lato-v24-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* lato-700 - latin */
   @font-face {
@@ -12,7 +12,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/lato-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../assets//fonts/lato-v24-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
   /* lato-900 - latin */
   @font-face {
@@ -20,7 +20,7 @@
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
-    src: url('../fonts/lato-v24-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    src: url('../assets//fonts/lato-v24-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
 
 body{
@@ -79,10 +79,6 @@ img{
   padding-bottom: 20px;
   z-index: 999;
 }
-
-/* .header:active{
-  background: #0E1D28;
-} */
 
 .headerWrapper{
   padding-top: 56px;
@@ -153,11 +149,9 @@ img{
   bottom: 0;
 }
 
-/* intro */
-
 .intro{
   min-height: 100vh;
-  background: url(../img/introBGjpg.jpg) no-repeat center;
+  background: url(../assets/images/introBGjpg.jpg) no-repeat center;
   background-size: cover;
   padding-top: 263px;
   padding-bottom: 223px;
@@ -193,7 +187,7 @@ img{
 .searchFormField{
   width: 297px;
   background-color: transparent;
-  background: url(../img/svg/ovalBG.png) no-repeat left 6px;
+  background: url(../assets/images/svg/ovalBG.png) no-repeat left 6px;
   background-size: 20px;
   border: 0;
   border-bottom: 2px solid lightgray;
@@ -224,10 +218,6 @@ img{
 .searchFormSubmit:hover, .searchFormSubmit:active, .searchFormSubmit:focus{
   opacity: .85;
 }
-
-/* intro */
-
-/* benefits */
 
 .benefits{
   margin-bottom: 131px;
@@ -296,16 +286,12 @@ img{
   line-height: 24px;
   color: #1B7DFF;
   text-transform: uppercase;
-  background: url(../img/svg/Shape.svg) no-repeat right center;
+  background: url(../assets/images/svg/Shape.svg) no-repeat right center;
 }
 
 .benefitsCardMore:hover, .benefitsCardMore:active, .benefitsCardMore:focus{
   opacity: 0.75s;
 }
-
-/* benefits */
-
-/* places */
 
 .places{
   margin-bottom: 131px;
@@ -315,7 +301,7 @@ img{
   font-size: 16px;
   color: #1B7DFF;
   text-decoration: none;
-  background: url(../img/svg/Shape.svg) no-repeat right center;
+  background: url(../assets/images/svg/Shape.svg) no-repeat right center;
   padding-right: 59px;
 }
 
@@ -409,10 +395,6 @@ img{
   z-index: 4;
 }
 
-/* places */
-
-/* tour */
-
 .tours{
   margin-bottom: 139px;
 }
@@ -442,7 +424,7 @@ img{
   font-size: 16px;
   color: #1B7DFF;
   text-decoration: none;
-  background: url(../img/svg/Shape.svg) no-repeat right center;
+  background: url(../assets/images/svg/Shape.svg) no-repeat right center;
   padding-right: 59px;
 }
 
@@ -453,10 +435,6 @@ img{
 .tour_info{
   padding-left: 47px;
 }
-
-/* tour */
-
-/* top */
 
 .wrapper_full{
   margin-left: 150px;
@@ -516,7 +494,7 @@ img{
   line-height: 24px;
   color: #ffffff;
   padding-right: 20px;
-  background: url(../img/svg/like.svg) no-repeat right;
+  background: url(../assets/images/svg/like.svg) no-repeat right;
   margin-right: 14px;
 }
 
@@ -526,7 +504,7 @@ img{
   line-height: 24px;
   color: #ffffff;
   padding-right: 23px;
-  background: url(../img/svg/comm.svg) no-repeat right;
+  background: url(../assets/images/svg/comm.svg) no-repeat right;
 }
 
 .topCardDesc{
@@ -549,9 +527,6 @@ img{
 .topCard_more:hover, .topCard_more:focus, .topCard_more:active{
   background: #0e66da;
 }
-/* top */
-
-/* video */
 
 .videos{
   width: 100%;
@@ -574,9 +549,6 @@ img{
   width: 100%;
   height: 100%;
 }
-/* video */
-
-/* footer */
 
 .footer{
   background: #0E1D28;
@@ -618,9 +590,6 @@ img{
 .footer_menu_link:hover, .footer_menu_link:focus, .footer_menu_link:active, .footer_menu_link:visited{
   opacity: .75;
 }
-/* footer */
-
-/* media */
 
 @media screen and (max-width: 960px) {
   .benefits{
@@ -761,12 +730,11 @@ img{
     width: 100%;
     margin-right: 0;
     padding-bottom: 12px;
-    background: url(../img/svg/ovalBG.png) no-repeat left 2px;
+    background: url(../assets/images/svg/ovalBG.png) no-repeat left 2px;
   }
 
   .searchFormField::placeholder{
     font-size: 16px;
-    
   }
 
   .searchFormSubmit{
@@ -852,5 +820,3 @@ img{
     padding: 30px;
   }
 }
-
-/* media */
